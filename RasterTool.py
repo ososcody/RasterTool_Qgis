@@ -67,8 +67,8 @@ import numpy as np
 from matplotlib.mlab import griddata
 import scipy as sp
 import scipy.interpolate
-import plotly.plotly as py
-import plotly.graph_objs as go
+import chart_studio.plotly as py # replaced deprecated old import: import plotly.plotly as py
+import plotly.graph_objs as go   # replaced deprecated old import: import plotly.graph_objs as go
 from mpl_toolkits.mplot3d import Axes3D
 import pylab
 import visvis
